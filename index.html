@@ -2,20 +2,182 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>1. FC Hinterforst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="1. FC Hinterforst">
+  <title>1. FC Hinterforst - Startseite</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+
+      header nav {
+          background-color: #333;
+          color: #fff;
+          padding: 1rem;
+      }
+
+      header nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+      }
+
+      header nav ul li {
+          margin: 0;
+      }
+
+      header nav ul li a {
+          color: #fff;
+          text-decoration: none;
+      }
+
+      main {
+          padding: 2rem;
+      }
+
+      main h1, main h2, main h3, main h4 {
+          margin-top: 0;
+      }
+
+      footer {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 1rem;
+      }
+  </style>
 </head>
 <body>
-  <header>
-    
-  </header>
+<header>
   <nav>
-    
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#spiele">Spiele</a></li>
+      <li><a href="#sponsoren">Sponsoren</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
   </nav>
-  <h1>1. FC Hinterforst</h1>
+</header>
 
-  <footer>
-    
-  </footer>
+<main>
+  <section id="home">
+    <h1>Willkommen beim 1. FC Hinterforst</h1>
+    <p>Der 1. FC Hinterforst ist ein Fußballverein mit langer Tradition. Gegründet in der kleinen Gemeinde Hinterforst,
+      hat der Verein eine lange Geschichte von sportlichen Erfolgen, sozialer Integration und Gemeinschaftsgeist.</p>
+    <h2>Unsere Highlights</h2>
+    <img src="img/highlight.jpg" alt="Highlight Bild">
+    <p>Besondere Momente und Erfolge des Vereins.</p>
+    <h2>Aktuelle Nachrichten</h2>
+    <article>
+      <h3>Neue Trainingsmethoden</h3>
+      <p>Unser Trainerteam hat neue Trainingsmethoden eingeführt, um die Leistung unserer Spieler zu steigern.</p>
+    </article>
+    <article>
+      <h3>Jugendturnier gewonnen</h3>
+      <p>Unser Nachwuchsteam hat das regionale Jugendturnier gewonnen. Herzlichen Glückwunsch!</p>
+    </article>
+    <h2>Kommende Spiele & Veranstaltungen</h2>
+    <p>Details zu kommenden Spielen und Events.</p>
+  </section>
+
+  <section id="spiele">
+    <h1>Kommende und vergangene Spiele</h1>
+    <h2>Kommende Spiele</h2>
+    <p><strong>Datum:</strong> 15. Juni 2024<br>
+      <strong>Uhrzeit:</strong> 14:00 Uhr<br>
+      <strong>Ort:</strong> Stadion Hinterforst<br>
+      <strong>Gegner:</strong> FC Eichenwald<br>
+      <a href="tickets.html">Tickets kaufen</a></p>
+
+    <p><strong>Datum:</strong> 22. Juni 2024<br>
+      <strong>Uhrzeit:</strong> 16:00 Uhr<br>
+      <strong>Ort:</strong> Sportplatz Eichenwald<br>
+      <strong>Gegner:</strong> FC Tannenhof<br>
+      <a href="tickets.html">Tickets kaufen</a></p>
+
+    <h2>Vergangene Spiele</h2>
+    <p><strong>Datum:</strong> 8. Juni 2024<br>
+      <strong>Uhrzeit:</strong> 13:00 Uhr<br>
+      <strong>Ort:</strong> Stadion Hinterforst<br>
+      <strong>Gegner:</strong> FC Hainstadt<br>
+      <strong>Ergebnis:</strong> 3:1 Sieg</p>
+
+    <h2>Spielberichte</h2>
+    <article>
+      <h3>Sieg gegen FC Hainstadt</h3>
+      <p>In einem spannenden Spiel konnte der 1. FC Hinterforst einen 3:1 Sieg gegen den FC Hainstadt einfahren. Hier
+        sind die Höhepunkte und Interviews.</p>
+    </article>
+    <article>
+      <h3>Niederlage gegen FC Walden</h3>
+      <p>Leider mussten wir eine 0:2 Niederlage gegen den FC Walden hinnehmen. Trotz harter Arbeit konnten wir keine
+        Tore erzielen.</p>
+    </article>
+  </section>
+
+  <section id="sponsoren">
+    <h1>Unsere Sponsoren</h1>
+    <article>
+      <h2>ABC GmbH</h2>
+      <img src="img/sponsor_abc.jpg" alt="ABC GmbH Logo">
+      <p>Die ABC GmbH unterstützt den 1. FC Hinterforst seit vielen Jahren. Als führender Anbieter in der Region freuen
+        wir uns, den Verein zu fördern.</p>
+      <a href="https://www.abcgmbh.com">Website der ABC GmbH</a>
+    </article>
+    <article>
+      <h2>XYZ AG</h2>
+      <img src="img/sponsor_xyz.jpg" alt="XYZ AG Logo">
+      <p>Die XYZ AG ist stolz darauf, den 1. FC Hinterforst zu sponsern und zur Entwicklung junger Talente
+        beizutragen.</p>
+      <a href="https://www.xyzag.com">Website der XYZ AG</a>
+    </article>
+
+    <h2>Werden Sie Sponsor</h2>
+    <p>Informationen über Sponsoring-Pakete und Vorteile.</p>
+    <p>Kontaktinformationen für Interessierte.</p>
+  </section>
+
+  <section id="kontakt">
+    <h1>Kontaktieren Sie uns</h1>
+    <h2>Wichtige Ansprechpartner</h2>
+    <p><strong>Vorstand:</strong> Max Mustermann<br>
+      <strong>Email:</strong> max@1fc-hinterforst.de<br>
+      <strong>Telefon:</strong> +49 123 456789</p>
+
+    <p><strong>Trainer:</strong> Julia Musterfrau<br>
+      <strong>Email:</strong> julia@1fc-hinterforst.de<br>
+      <strong>Telefon:</strong> +49 987 654321</p>
+
+    <h2>Kontaktformular</h2>
+    <form action="/send-message" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Nachricht:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Senden</button>
+    </form>
+
+    <h2>Adresse</h2>
+    <p>1. FC Hinterforst<br>
+      Hauptstraße 123<br>
+      12345 Hinterforst</p>
+    <p>Anfahrtsinformationen: Der Sportplatz liegt direkt neben der Schule in Hinterforst und ist mit öffentlichen
+      Verkehrsmitteln gut zu erreichen.</p>
+    <p>Folgen Sie uns auf <a href="https://www.facebook.com/1fc-hinterforst">Facebook</a> und <a
+        href="https://www.twitter.com/1fc-hinterforst">Twitter</a>.</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 1. FC Hinterforst. Alle Rechte vorbehalten.</p>
+</footer>
 </body>
 </html>
